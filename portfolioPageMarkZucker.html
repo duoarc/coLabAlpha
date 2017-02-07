@@ -2,44 +2,55 @@
 <div class="container-fluid">
 
 <!--These are the links to the css, bootstrap, fonts, symbols, etc-->
-<link rel="stylesheet" href="portfolioPageMarkZucker.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" type ="text/css" href="portfolioPageMarkZucker.css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!--The home bar-->
     <div class="" id="top-bar">
         <button class="btn btn-default">Mark Zuckerberg</button>
     </div>
-    
+
+    <!-- Home, currently just a big blue bar -->
+
+    <div class="home-header text-center" id="home">
+        <h1 >Mark Zuckerberg</h1>
+    </div>
+
     <!--created a div row to split the page, for a smaller column to contain buttons on the right-->
     <div class="row" id="entire-page">
 
         <!--larger column on the left containing sections -->
-        <div class="col-sm-9" id="main-page">
-            <div class="" id="home">
-                <h1>Mark Zuckerberg</h1>
-            </div>
+        <div class="col-md-9" id="main-page">
 
-
+            <!-- Let's sell Mark Zuckerberg, lol -->
             <div class="" id="about">
                 *********
             </div>
 
+            <!--library of Mark's acheivements, facebook and zuckerberg foundation work, in pictures with captions, might need to create columns with bootstrap -->
             <div class="" id="portfolio">
-                <figcaption><img src="" alt="" />******</figcaption><figcaption><img src="" alt="" />******</figcaption><figcaption><img src="" alt="" />******</figcaption><figcaption><img src="" alt="" />******</figcaption>
+                <figcaption><img src="" alt="" />******</figcaption>
+                <figcaption><img src="" alt="" />******</figcaption>
+                <figcaption><img src="" alt="" />******</figcaption>
+                <figcaption><img src="" alt="" />******</figcaption>
             </div>
 
             <div class="" id="contact">
-                *********
+                <a href = "#">   <button class="btn btn-default">  <i class="fa fa-facebook" aria-hidden="true"></i>Facebook</button></a>
+                <a href = "#">   <button class="btn btn-default">  <i class="fa fa-twitter" aria-hidden="true"></i>Twitter</button></a>
+                <a href = "#">   <button class="btn btn-default">  <i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</button></a>
+                <a href = "#">   <button class="btn btn-default">  <i class="fa fa-github" aria-hidden="true"></i>GitHub</button></a>
             </div>
 
         </div>
 
         <!--smaller column on the left for buttons directing users to the sections-->
-        <div class="col-sm-3" id="buttons">
-            <button class="btn btn-default">Home</button>
-            <button class="btn btn-default">About</button>
-            <button class="btn btn-default">Portfolio</button>
-            <button class="btn btn-default">Contact</button>
+        <div class="col-md-3" id="buttons">
+            <button class="btn btn-default btn-block">Home</button></br>
+            <button class="btn btn-default btn-block">About</button></br>
+            <button class="btn btn-default btn-block">Portfolio</button></br>
+            <button class="btn btn-default btn-block">Contact</button>
         </div>
     </div>
 </div>
