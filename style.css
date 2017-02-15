@@ -4,9 +4,17 @@ h1,h2 {
 p {
 	font-family: 'Galeway', sans-serif;
 }
-.container-fluid{
-	background-color: #eaf1fb;
+
+body {
+	background-color: #222281;
+	overflow-x: hidden !important;
+	font-family: 'Sansita', sans-serif;
 }
+
+.container-fluid{
+	/*background-color: #222281;*/
+}
+
 .navbar{
     background-color: #fff;
     border-color: #E7E7E7;
@@ -21,16 +29,15 @@ p {
 	border-color: #6a9ae2;
 	color: #6a9ae2;
 	background-color: #fff;
-	font-family: 'Sansita', sans-serif;
 	font-size: 14px;
 	padding: 10px;
 	margin: 10px;
 	text-align: center;
 }
 .home-header{
-	background-color:#eaf1fb;
-	padding:125px;
-	margin:0px -15px 10px -15px;
+	background-color:#222281;
+	/*padding:125px;*/
+	/*margin:0px -15px 10px -15px;*/
 }
 .about-this{
 	background-color:#94b8eb;
@@ -56,4 +63,22 @@ p {
 #mainimage{
 	height: 60%;
 	width: 100%;
+}
+
+.header-image {
+	/*width: 100vh;*/
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	margin: 10px;
+}
+
+.rel-text {
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	font-family: 'Lobster', cursive;
+	color: #333232;
+	font-weight: 50px;
+	font-size: 100px;
 }
