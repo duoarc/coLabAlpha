@@ -53,3 +53,7 @@ p {
 .left-well{
 	float: left;
 }
+#mainimage{
+	height: 60%;
+	width: 100%;
+}
